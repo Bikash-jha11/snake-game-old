@@ -1,0 +1,27 @@
+.body{
+    background: url('./bg.jpg');
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.board{
+    height: 92vmin;
+    width: 92vmin;
+    background-color: #ddd;
+    display:grid;
+    grid-template-columns: repeat(18,1fr);
+    grid-template-rows: repeat(18,1fr);
+}
+
+.head{
+    background-color: red;
+}
+.snake{
+    background-color: purple;
+}
+.food{
+    background-color: yellow;
+}
